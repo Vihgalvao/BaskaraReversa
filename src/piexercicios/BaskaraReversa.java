@@ -9,14 +9,16 @@ public class BaskaraReversa {
  
     public static void main(String[] args) {
         //ENTRADA
-        Scanner console = new Scanner(System.in);
-        System.out.println("x1: ");
-        double x1 = console.nextDouble();
-        System.out.println("x2: ");
-        double x2 = console.nextDouble();
-        System.out.println("c: ");
-        double c = console.nextDouble();
         
+        
+        Scanner console = new Scanner(System.in);
+        
+        System.out.print("x1: ");
+        double x1 = Double.parseDouble(console.nextLine());
+        System.out.println("x2: ");
+        double x2 = Double.parseDouble(console.nextLine());
+        System.out.println("c: ");
+        double c = Double.parseDouble(console.nextLine());
         //PROCESSAMENTO
         double s = x1 + x2;
         double p = x1 + x2;
