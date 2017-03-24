@@ -24,7 +24,7 @@ public class BaskaraReversa {
         double p = x1 + x2;
         double a = c / p;
         double b = -(s*a);
-        System.out.println("A equação que tem raizes " + x1 + " e " + x2 + " é "+ a + "x² + " + b + "x + " + c);
+        System.out.println("A equação que tem as raizes " + x1 + " e " + x2 + " é "+ a + "x² + " + b + "x + " + c);
         System.out.printf("teste %.2" ,x1);
         
     }
